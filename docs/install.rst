@@ -47,4 +47,10 @@ On Linux, additionally you need to install the ``scrot`` application, as well as
 
     ``sudo apt-get install python3-dev``
 
+    /!\ if you use a specific version of python that is not your default python version, please update the command line accordingly. For example, if you using     python 3.11, the command will be  :
+
+    ``sudo apt-get install python3.11-dev``
+
 PyAutoGUI install the modules it depends on, including PyTweening, PyScreeze, PyGetWindow, PymsgBox, and MouseInfo.
+
+
